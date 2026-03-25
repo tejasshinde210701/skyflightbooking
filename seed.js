@@ -177,8 +177,8 @@ async function seed() {
   await new User({ name: 'Demo User', email: 'demo@skybook.com', password: 'demo1234', phone: '+91 9876543210' }).save();
   console.log('✅ Demo user: demo@skybook.com / demo1234');
 
-  await new User({ name: 'SkyBook Admin', email: 'admin@skybook.com', password: 'admin1234', role: 'admin' }).save();
-  console.log('✅ Admin: admin@skybook.com / admin1234');
+  await new User({ name: 'SkyBook Admin', email: 'mainadmin@skybook.com', password: 'admin6420', role: 'admin' }).save();
+  console.log('✅ Admin: mainadmin@skybook.com / admin6420');
 
   await mongoose.disconnect();
   console.log(`\n🎉 Done! ${flights.length} flights seeded.`);
